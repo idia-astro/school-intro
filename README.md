@@ -4,9 +4,9 @@
 
 The JupyterLab user interface has a file browser panel on the left, and a `Launcher` to create a new notebook or, if a notebook is open, the notebook user interface is displayed on the right.
 
-<img src="media/jupyterlab_ui.png" width=80%>
-
 You can open an existing notebook from the file browser panel, or create a new notebook by selecting an appropriate kernel (in the example only one kernel, `Python 3`, is available). New notebooks will be created in the current working directory as displayed in the file browser panel.
+
+<img src="media/jupyterlab_ui.png" width=80%>
 
 ## Notebook UI
 
@@ -23,6 +23,8 @@ When you run a cell an indicator number will appear on the left of the cell, whe
 You can edit and interact with the cells using the mouse or keyboard.
 
 ### Mouse navigation
+
+You can click on a cell to edit it, or select the output area or area around a cell to enter command mode.
 
 Common commands are available on the toolbar located at the top of the notebook, including copying and pasting cells, running selected cells and stopping and restarting the kernel.
 
@@ -48,7 +50,7 @@ Common keyboard shortcuts include:
 2. Saving the notebook: `s`
 3. Change Cell types: `y`, `m`, `1-6`, `t` - change to code, markup, etc.
 5. Cell editing: `x`, `c`, `v`, `d` (press twice), `z` - cut, copy, paste, delete cells, and undo
-6. Kernel operations: `i`, `0` (press twice) - interupt or restart kernel
+6. Kernel operations: `i`, `0` (press twice) - interrupt or restart kernel
 
 ### Useful tools
 
