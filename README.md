@@ -2,7 +2,7 @@
 
 ## JupyterLab UI
 
-The JupyterLab user interface has a file browser panel on the left, and a `Launcher` to create a new notebook or, if a notebook is open, the notebook user interface is displayed on the right.
+The JupyterLab user interface has a file browser panel on the left, and a `Launcher` window, to create a new notebook, or if a notebook is open, the notebook user interface is displayed on the right.
 
 You can open an existing notebook from the file browser panel, or create a new notebook by selecting an appropriate kernel (in the example only one kernel, `Python 3`, is available). New notebooks will be created in the current working directory as displayed in the file browser panel.
 
@@ -18,7 +18,7 @@ Cells have two modes, `edit` mode for editing cell contents (indicated by a blue
 
 <img src="media/cell_execution.png" width=70%>
 
-When you run a cell an indicator number will appear on the left of the cell, where the order of the numbers indicates the order inwhich the cells were executed.
+When you run a cell an indicator number will appear on the left of the cell, where the order of the numbers indicates the order in which the cells were executed.
 
 You can edit and interact with the cells using the mouse or keyboard.
 
@@ -38,10 +38,9 @@ Additional options to run cells are available in the `Run` menu at the top of th
 
 The notebook interface for JupyterLab includes many useful keyboard shortcuts. 
 
-To switch between `edit` and `command` mode you can use `Enter`, which enters 
-edit mode, and `Esc`, which enters command mode.
+You can enter and exit edit mode using `Enter` and `Esc` respectively.
     
-In edit mode, most of the keyboard is dedicated to typing into the cell's editor. Thus, in edit mode there are relatively few shortcuts.  In command mode, almost the entire keyboard is available for shortcuts, so there are many more.  The `Settings`-> `Advanced Settings Editor` -> `Keyboard Shortcuts` menu lists the available shortcuts.
+In edit mode, most of the keyboard is dedicated to typing into the cell's editor, therefor there are relatively few shortcuts in this mode.  In command mode, almost the entire keyboard is available for shortcuts, so there are many more.  The `Settings`-> `Advanced Settings Editor` -> `Keyboard Shortcuts` menu lists the available shortcuts.
 
 Common keyboard shortcuts include:
     
@@ -49,8 +48,8 @@ Common keyboard shortcuts include:
 4. Cell creation: `a`, `b` - to create cells above or below the current cell
 2. Saving the notebook: `s`
 3. Change Cell types: `y`, `m`, `1-6`, `t` - change to code, markup, etc.
-5. Cell editing: `x`, `c`, `v`, `d` (press twice), `z` - cut, copy, paste, delete cells, and undo
-6. Kernel operations: `i`, `0` (press twice) - interrupt or restart kernel
+5. Cell editing: `x`, `c`, `v`, `d,d` (press twice), `z` - cut, copy, paste, delete cells, and undo
+6. Kernel operations: `i,i`, `0,0` - interrupt or restart kernel
 
 ### Useful tools
 
