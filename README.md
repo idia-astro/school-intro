@@ -55,7 +55,7 @@ Common keyboard shortcuts include:
 
 **Restarting the kernel**
 
-If you want to clear all variable and start the notebook fresh you can restart the kernel, either from the toolbar or `Kernel` menu.
+If you want to clear all variables and start the notebook fresh you can restart the kernel, either from the toolbar or `Kernel` menu.
 
 <img src="media/restart_kernel.png" width=50%>
 
