@@ -2,7 +2,7 @@
 
 ## JupyterLab UI
 
-The JupyterLab user interface has a file browser panel on the left, and a `Launcher` window, to create a new notebook, or if a notebook is open, the notebook user interface is displayed on the right.
+The JupyterLab user interface (UI) has a file browser panel on the left, and a `Launcher` window, to create a new notebook, or if a notebook is open, the notebook user interface is displayed on the right.
 
 You can open an existing notebook from the file browser panel, or create a new notebook by selecting an appropriate kernel (in the example only one kernel, `Python 3`, is available). New notebooks will be created in the current working directory as displayed in the file browser panel.
 
