@@ -98,7 +98,7 @@ A terminal feature is available to use within the JupyterLab UI, allowing you to
 If you want to install a new Python library, you can request for a workshop tutor or coordinator to install the new library in the default kernel (requires sudo). This will make the new library available to any members using the default kernel.
 
 ```bash
-$ /opt/workshop/bin/python -m pip install <package>
+$ sudo /opt/workshop/bin/python -m pip install <package>
 ```
 
 As a participant, you can install Python libraries as a local install using the following command:
